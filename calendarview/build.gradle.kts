@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -37,4 +38,17 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("maven") { //"release"
+                from(components["release"])  //如果是纯Java\Kotlin项目则为"java" 例如ksp项目
+                groupId = "com.haibin.calendarview"
+                artifactId = "calendarview"
+                version = "v3.7.2"
+            }
+        }
+    }
 }
