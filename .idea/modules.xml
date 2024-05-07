@@ -3,6 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CalendarViewProject.iml" filepath="$PROJECT_DIR$/CalendarViewProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CalendarView_huanghaibin-dev.iml" filepath="$PROJECT_DIR$/.idea/modules/CalendarView_huanghaibin-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CalendarView_huanghaibin-dev.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.iml" filepath="$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/calendarview/CalendarView_huanghaibin-dev.calendarview.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/calendarview/calendarview.iml" filepath="$PROJECT_DIR$/calendarview/calendarview.iml" />
     </modules>
