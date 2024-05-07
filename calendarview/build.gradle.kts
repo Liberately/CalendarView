@@ -47,7 +47,7 @@ afterEvaluate {
                 from(components["release"])  //如果是纯Java\Kotlin项目则为"java" 例如ksp项目
                 groupId = "com.haibin.calendarview"
                 artifactId = "calendarview"
-                version = "v3.7.2"
+                version = "v3.7.3"
             }
         }
     }
