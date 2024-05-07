@@ -1,3 +1,31 @@
+fork: https://github.com/huanghaibin-dev/CalendarView
+
+use:
+
+
+Step 1. Add the JitPack repository to your build file  
+Add it in your root build.gradle at the end of repositories:  
+```kotlin
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+Step 2. Add the dependency
+
+[![](https://jitpack.io/v/Liberately/CalendarView.svg)](https://jitpack.io/#Liberately/CalendarView)
+
+```kotlin
+dependencies {
+        implementation 'com.github.Liberately:CalendarView:Tag'
+}
+```
+
+---
+
 # CalenderView
 
 An elegant CalendarView on Android platform.
@@ -13,9 +41,9 @@ Github代码全部开源无限制使用，免费开源最终版本为3.7.1，垂
 
 The final version of the free and open source part is 3.7.1, the vertical and horizontal switching calendar liked iOS calendar are no longer open source.
 
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/screen_recorder.gif" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/screen_recorder_main.gif" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/screen_recorder_flip.gif" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/screen_recorder.gif" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/screen_recorder_main.gif" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/screen_recorder_flip.gif" height="650"/>
 
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/simple.jpg" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/range_select.jpg" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/full_calendar.jpg" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/simple.jpg" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/range_select.jpg" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/full_calendar.jpg" height="650"/>
 
 ### AndroidStudio v3.5+
 
@@ -40,9 +68,9 @@ implementation 'com.haibin:calendarview:3.7.1'
 
 ## How to use?
 
-[**English Doc**](https://github.com/huanghaibin-dev/CalendarView/blob/master/QUESTION.md)
+[**English Doc**](https://github.com/Liberately/CalendarView/blob/master/QUESTION.md)
 
-[**中文使用文档**](https://github.com/huanghaibin-dev/CalendarView/blob/master/QUESTION_ZH.md)
+[**中文使用文档**](https://github.com/Liberately/CalendarView/blob/master/QUESTION_ZH.md)
 
 ### proguard-rules
 ```java
@@ -70,19 +98,19 @@ implementation 'com.haibin:calendarview:3.7.1'
 ### Effect Preview
 
 ### func
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/main_zh_func.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/main_zh_list.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/main_zh_func.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/main_zh_list.png" height="650"/>
 ### YearView and Range Style
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/year_view.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/range.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/year_view.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/range.png" height="650"/>
 ### Beautiful Chinese style
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/custom_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/custom_shrink.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/custom_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/custom_shrink.png" height="650"/>
 ### Meizu mobile phone calendar
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/meizu_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/meizu_shrink.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/meizu_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/meizu_shrink.png" height="650"/>
 ### Colorful and Full style
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/full_calendar.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/color_expand.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/full_calendar.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/color_expand.png" height="650"/>
 ### Progress bar style
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/progress_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/progress_shrink.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/progress_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/progress_shrink.png" height="650"/>
 ### Galaxy style
-<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/solar_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/huanghaibin-dev/CalendarView/blob/master/app/src/main/assets/solar_shrink.png" height="650"/>
+<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/solar_expand.png" height="650"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/Liberately/CalendarView/blob/master/app/src/main/assets/solar_shrink.png" height="650"/>
 
 
 
